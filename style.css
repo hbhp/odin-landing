@@ -1,7 +1,10 @@
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     border: 1px solid red;
-
+}
+body {
+    margin: 0;
+    border: 0;
 }
 .section-1 {
     display: flex;
@@ -35,12 +38,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
 }
 .s1text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*can't get text centred together*/
     max-width: 495px;
     color: #e5e7eb;
 }
