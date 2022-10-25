@@ -1,6 +1,5 @@
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    border: 1px solid red;
 }
 body {
     margin: 0;
@@ -14,7 +13,6 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
-
 }
 .header-menu {
     display: flex;
@@ -38,11 +36,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 .s1text {
     display: flex;
     flex-direction: column;
-    /*can't get text centred together*/
     max-width: 495px;
     color: #e5e7eb;
 }
@@ -50,9 +48,23 @@ a {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 700;
+    margin-bottom: 0;
 }
 .placeholder {
+    display: flex;
     width: 495px;
     max-width: 500px;
     background-color: grey;
+}
+.subtext {
+    margin-right: 30px;
+}
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: auto;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0;
 }
