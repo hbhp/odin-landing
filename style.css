@@ -1,5 +1,6 @@
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    border: 1px solid red;
 }
 body {
     margin: 0;
@@ -63,7 +64,7 @@ a {
 .subtext {
     margin-right: 30px;
 }
-button {
+.button {
     background-color: #3882F6;
     color: #F9FAF8;
     margin: auto;
@@ -120,4 +121,36 @@ button {
 .person {
     text-align: right;
     font-weight: 700;
+}
+.button2 {
+    border: solid 2px white;
+}
+.section-4 {
+    display: flex;
+    padding: 40px 230px;
+    justify-content: center;
+}
+.action {
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+}
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    flex: 2;
+
+}
+.a-t {
+    padding: 0;
+    margin: 0;
+}
+.a-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
