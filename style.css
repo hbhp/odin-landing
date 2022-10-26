@@ -52,9 +52,13 @@ a {
 }
 .placeholder {
     display: flex;
-    width: 495px;
+    width: 500px;
     max-width: 500px;
     background-color: grey;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    color: #F9FAF8;
 }
 .subtext {
     margin-right: 30px;
@@ -67,4 +71,32 @@ button {
     border: none;
     border-radius: 5px;
     margin-left: 0;
+}
+.s2header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s2hero {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 700;
+}
+.squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 220px;
+}
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px red;
+}
+.image {
+    border: solid 1px red;
+    height: 100px;
+    width: 100px;
 }
